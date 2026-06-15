@@ -1,0 +1,61 @@
+site_name: Docs
+site_author:
+site_description:
+site_url: https://aqrate.biz
+
+theme:
+  name: material # tema Material Design
+  custom_dir: overrides
+  logo: assets/logo.webp
+  favicon: assets/favicon.ico
+  palette:
+    # Modalità chiara
+    - scheme: default
+      primary: indigo # colore principale
+      accent: indigo
+  font:
+    text: Inter
+    code: Google Sans Code
+  features:
+    - navigation.sections # sezioni nel menu laterale
+    - navigation.top # pulsante "torna su"
+    - navigation.instant # navigazione istantanea senza ricaricare
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - search.highlight # evidenzia risultati ricerca
+    - search.suggest # suggerimenti durante la digitazione
+    - content.code.copy # pulsante copia sui blocchi codice
+    - toc.follow # indice che segue lo scroll
+    - toc.integrate # indice integrato nella pagina
+
+plugins:
+  - search # ricerca integrata
+
+extra:
+  version:
+    provider: mike
+
+extra_css:
+  - assets/stylesheets/firebase-auth.css
+
+extra_javascript:
+  - assets/javascripts/nav-target-blank.js
+  - assets/javascripts/firebase-auth-config.js
+  - assets/javascripts/firebase-auth-overrides.js
+  - https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js
+  - https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js
+  - assets/javascripts/firebase-auth.js
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - admonition # box note/warning/tip
+  - pymdownx.highlight: # syntax highlighting
+      anchor_linenums: true
+  - pymdownx.superfences # blocchi codice annidati
+  - pymdownx.tabbed: # tab nei contenuti
+      alternate_style: true
+  - attr_list
+  - md_in_html

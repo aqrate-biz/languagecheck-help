@@ -1,0 +1,190 @@
+.lc-auth-trigger {
+  align-items: center;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #1f2937;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 0.78rem;
+  font-weight: 600;
+  gap: 0.35rem;
+  line-height: 1;
+  min-height: 2rem;
+  padding: 0.42rem 0.72rem;
+  position: relative;
+  z-index: 2;
+}
+
+.lc-auth-trigger:hover {
+  background: #eef2f7;
+}
+
+.lc-auth-header-slot {
+  align-items: center;
+  display: inline-flex;
+  margin-left: 0.55rem;
+}
+
+.lc-auth-panel {
+  background: #ffffff;
+  border: 1px solid #d0d7de;
+  border-radius: 12px;
+  top: 3.6rem;
+  box-shadow: 0 12px 34px rgba(15, 23, 42, 0.16);
+  max-width: 340px;
+  padding: 0.9rem;
+  position: fixed;
+  right: 1rem;
+  width: calc(100vw - 2rem);
+  z-index: 1200;
+}
+
+.lc-auth-panel[hidden] {
+  display: none;
+}
+
+.lc-auth-title {
+  color: #1f2937;
+  font-size: 0.98rem;
+  font-weight: 700;
+  margin: 0 0 0.65rem;
+}
+
+.lc-auth-line {
+  margin: 0.28rem 0;
+}
+
+.lc-auth-label {
+  color: #374151;
+  display: block;
+  font-size: 0.83rem;
+  font-weight: 600;
+  margin-bottom: 0.26rem;
+}
+
+.lc-auth-input {
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: block;
+  font-size: 0.9rem;
+  outline: none;
+  padding: 0.54rem 0.62rem;
+  width: 100%;
+}
+
+.lc-auth-input:focus {
+  border-color: #0b57d0;
+  box-shadow: 0 0 0 2px rgba(11, 87, 208, 0.12);
+}
+
+.lc-auth-actions {
+  display: grid;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+}
+
+.lc-auth-btn {
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 0.5rem 0.62rem;
+}
+
+.lc-auth-btn-primary {
+  background: #0b57d0;
+  border: 1px solid #0b57d0;
+  color: #ffffff;
+}
+
+.lc-auth-btn-primary:hover {
+  background: #0848ab;
+}
+
+.lc-auth-btn-secondary {
+  background: #ffffff;
+  border: 1px solid #d0d7de;
+  color: #1f2937;
+}
+
+.lc-auth-btn-secondary:hover {
+  background: #f8fafc;
+}
+
+.lc-auth-status {
+  border-radius: 8px;
+  font-size: 0.8rem;
+  margin-top: 0.66rem;
+  min-height: 1.8rem;
+  padding: 0.44rem 0.5rem;
+}
+
+.lc-auth-status-info {
+  background: #eef4ff;
+  color: #1d4ed8;
+}
+
+.lc-auth-status-success {
+  background: #e8f7ed;
+  color: #166534;
+}
+
+.lc-auth-status-error {
+  background: #fdecec;
+  color: #991b1b;
+}
+
+.lc-auth-user {
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  color: #111827;
+  font-size: 0.84rem;
+  margin-top: 0.6rem;
+  padding: 0.48rem 0.55rem;
+}
+
+[data-md-color-scheme="slate"] .lc-auth-panel {
+  background: #111827;
+  border-color: #374151;
+}
+
+[data-md-color-scheme="slate"] .lc-auth-title,
+[data-md-color-scheme="slate"] .lc-auth-label,
+[data-md-color-scheme="slate"] .lc-auth-user {
+  color: #e5e7eb;
+}
+
+[data-md-color-scheme="slate"] .lc-auth-input {
+  background: #0f172a;
+  border-color: #374151;
+  color: #e5e7eb;
+}
+
+[data-md-color-scheme="slate"] .lc-auth-btn-secondary {
+  background: #1f2937;
+  border-color: #374151;
+  color: #e5e7eb;
+}
+
+[data-md-color-scheme="slate"] .lc-auth-trigger {
+  background: #e5e7eb;
+  border-color: #cbd5e1;
+  box-shadow: none;
+  color: #111827;
+}
+
+@media (max-width: 640px) {
+  .lc-auth-header-slot {
+    margin-left: 0.35rem;
+  }
+
+  .lc-auth-panel {
+    top: 3.2rem;
+    right: 0.8rem;
+    width: calc(100vw - 1.6rem);
+  }
+}

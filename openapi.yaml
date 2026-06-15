@@ -1,0 +1,593 @@
+swagger: "2.0"
+
+# ---------------------------------------------------------------------------
+# Info
+# ---------------------------------------------------------------------------
+info:
+  title: LanguageCheck API
+  description: |
+    These are the APIs for LanguageCheck (languagecheck.ai), enabling direct access to its services through RESTful calls.
+  version: "2.1.0"
+  termsOfService: https://languagecheck.ai/terms
+  contact:
+    name: LanguageCheck crew
+    url: https://languagecheck.ai
+    email: crew@languagecheck.ai
+
+# ---------------------------------------------------------------------------
+# Server & Configurazione Endpoint GCP
+# ---------------------------------------------------------------------------
+
+host: api.languagecheck.ai
+basePath: /v2
+schemes:
+  - https
+
+# ---------------------------------------------------------------------------
+# Global security: API key required on all endpoints
+# ---------------------------------------------------------------------------
+security:
+  - ApiKeyAuth: []
+
+securityDefinitions:
+  ApiKeyAuth:
+    type: apiKey
+    in: header
+    name: X-API-Key
+
+definitions:
+  ApiResponse:
+    type: object
+    required:
+      - success
+      - status
+      - message
+      - metadata
+    properties:
+      success:
+        type: boolean
+        description: Outcome of the request
+        example: true
+      status:
+        type: integer
+        description: HTTP status code of the response
+        example: 200
+      message:
+        type: string
+        description: Descriptive message for the outcome
+        example: "Operation completed successfully"
+      metadata:
+        $ref: "#/definitions/ResponseMetadata"
+      errors:
+        type: array
+        description: List of errors (null on success)
+        items:
+          $ref: "#/definitions/ApiError"
+        example: null
+  ResponseMetadata:
+    type: object
+    required:
+      - timestamp
+      - requestId
+      - version
+      - requestReceivedAt
+      - processingTimeMs
+      - user
+      - apiKey
+    properties:
+      timestamp:
+        type: string
+        format: date-time
+        description: UTC timestamp of the response
+        example: "2024-05-09T12:00:00Z"
+      requestId:
+        type: string
+        description: Unique request ID (useful for debugging)
+        example: "a3f92c1d-8e74-4b2a-bc01-f3d9e5a71c88"
+      version:
+        type: string
+        description: API version
+        example: "v2"
+      requestReceivedAt:
+        type: string
+        format: date-time
+        description: UTC timestamp when the request was received
+        example: "2024-05-09T12:00:00Z"
+      processingTimeMs:
+        type: integer
+        description: Time taken to process the request in milliseconds
+        example: 123
+      user:
+        type: string
+        description: User identifier (e.g., email) associated with the request (if available)
+        example: "user@example.com"
+      apiKey:
+        type: string
+        description: API key used for the request (if available)
+        example: "api_key_123"
+  ApiError:
+    type: object
+    required:
+      - code
+      - message
+    properties:
+      code:
+        type: string
+        description: Error identifier code
+        example: "VALIDATION_ERROR"
+      field:
+        type: string
+        description: Field involved (optional, for validation errors)
+        example: "email"
+      message:
+        type: string
+        description: Human-readable error description
+        example: "The email format is not valid"
+  Status:
+    type: object
+    required:
+      - system
+      - ai
+    properties:
+      system:
+        type: string
+        enum:
+          [
+            operational,
+            degraded_performance,
+            partial_outage,
+            major_outage,
+            under_maintenance,
+          ]
+        description: Operational status of the system
+        example: operational
+      ai:
+        type: string
+        enum:
+          [
+            operational,
+            degraded_performance,
+            partial_outage,
+            major_outage,
+            under_maintenance,
+          ]
+        description: Operational status of the AI service
+        example: operational
+  CheckResult:
+    type: object
+    required:
+      - evaluation
+      - isAmbiguous
+      - minorErrors
+      - majorErrors
+      - fluencyIssues
+      - minorErrorsExplanation
+      - majorErrorsExplanation
+      - fluencyIssuesExplanation
+      - words
+    properties:
+      evaluation:
+        type: string
+        description: Evaluation result
+        example: "pass"
+      isAmbiguous:
+        type: boolean
+        description: Indicates if the result is ambiguous
+        example: false
+      minorErrors:
+        type: boolean
+        description: Indicates if there are minor errors
+        example: true
+      majorErrors:
+        type: boolean
+        description: Indicates if there are major errors
+        example: false
+      fluencyIssues:
+        type: boolean
+        description: Indicates if there are fluency issues
+        example: true
+      minorErrorsExplanation:
+        type: string
+        description: Explanation of minor errors
+        example: "Minor spelling mistakes"
+      majorErrorsExplanation:
+        type: string
+        description: Explanation of major errors
+        example: ""
+      fluencyIssuesExplanation:
+        type: string
+        description: Explanation of fluency issues
+        example: "Some sentences are awkwardly phrased"
+      words:
+        type: integer
+        description: Number of words in the source text
+        example: 10
+  WalletInfo:
+    type: object
+    required:
+      - words
+      - lastUpdated
+    properties:
+      words:
+        type: integer
+        description: Number of words remaining in the user's wallet
+        example: 1500
+      lastUpdated:
+        type: string
+        format: date-time
+        description: UTC timestamp of the last wallet update
+        example: "2024-05-09T12:00:00Z"
+  StatusResponse:
+    allOf:
+      - $ref: "#/definitions/ApiResponse"
+      - type: object
+        properties:
+          data:
+            $ref: "#/definitions/Status"
+  CheckResponse:
+    allOf:
+      - $ref: "#/definitions/ApiResponse"
+      - type: object
+        properties:
+          data:
+            $ref: "#/definitions/CheckResult"
+  WalletResponse:
+    allOf:
+      - $ref: "#/definitions/ApiResponse"
+      - type: object
+        properties:
+          data:
+            $ref: "#/definitions/WalletInfo"
+  ErrorApiResponse:
+    allOf:
+      - $ref: "#/definitions/ApiResponse"
+      - type: object
+        properties:
+          data:
+            type: string
+            description: Always null in case of error
+            example: null
+  Language:
+    type: string
+    enum:
+      [
+        af-ZA,
+        am-ET,
+        ar-AE,
+        ar-BH,
+        ar-DZ,
+        ar-EG,
+        ar-IQ,
+        ar-KW,
+        ar-LB,
+        ar-LY,
+        ar-MA,
+        ar-QA,
+        ar-SA,
+        ar-TN,
+        as-IN,
+        az-Cyrl-AZ,
+        az-Latn-AZ,
+        be-BY,
+        bg-BG,
+        bn-BD,
+        bn-IN,
+        br-FR,
+        bs-Cyrl-BA,
+        bs-Latn-BA,
+        ca-ES,
+        chr-Cher-US,
+        cnr-Latn-ME,
+        cs-CZ,
+        cy-GB,
+        da-DK,
+        de-AT,
+        de-CH,
+        de-DE,
+        el-GR,
+        en-AU,
+        en-CA,
+        en-GB,
+        en-IN,
+        en-NZ,
+        en-US,
+        es-AR,
+        es-CL,
+        es-CO,
+        es-ES,
+        es-MX,
+        es-PE,
+        es-UY,
+        et-EE,
+        eu-ES,
+        fa-IR,
+        ff-Latn-SN,
+        fi-FI,
+        fil-PH,
+        fr-CA,
+        fr-CH,
+        fr-FR,
+        fy-NL,
+        ga-IE,
+        gd-GB,
+        gl-ES,
+        gu-IN,
+        ha-Latn-NG,
+        haw-US,
+        he-IL,
+        hi-IN,
+        hr-HR,
+        hu-HU,
+        hy-AM,
+        id-ID,
+        ig-NG,
+        is-IS,
+        it-IT,
+        ja-JP,
+        ka-GE,
+        kk-KZ,
+        kl-GL,
+        km-KH,
+        kn-IN,
+        ko-KR,
+        ku-Arab-IQ,
+        ky-KG,
+        lb-LU,
+        lo-LA,
+        lt-LT,
+        lv-LV,
+        mi-NZ,
+        mk-MK,
+        ml-IN,
+        mn-MN,
+        mr-IN,
+        ms-BN,
+        ms-MY,
+        mt-MT,
+        nb-NO,
+        ne-NP,
+        nl-BE,
+        nl-NL,
+        nn-NO,
+        no-NO,
+        or-IN,
+        pa-Arab-PK,
+        pa-IN,
+        pl-PL,
+        prs-AF,
+        ps-AF,
+        pt-BR,
+        pt-PT,
+        quz-BO,
+        quz-EC,
+        quz-PE,
+        ro-RO,
+        ru-RU,
+        rw-RW,
+        sa-IN,
+        si-LK,
+        sk-SK,
+        sl-SI,
+        sq-AL,
+        sr-Cyrl-BA,
+        sr-Latn-BA,
+        sv-SE,
+        sw-KE,
+        ta-IN,
+        ta-LK,
+        te-IN,
+        tg-Cyrl-TJ,
+        th-TH,
+        tk-TM,
+        tl-PH,
+        tn-BW,
+        tr-TR,
+        tt-RU,
+        tzm-Latn-DZ,
+        uk-UA,
+        ur-PK,
+        uz-Cyrl-UZ,
+        uz-Latn-UZ,
+        vi-VN,
+        wo-SN,
+        xh-ZA,
+        yo-NG,
+        zh-CN,
+        zh-HK,
+        zh-MO,
+        zh-SG,
+        zh-TW,
+        zu-ZA,
+      ]
+    example: en-US
+    description: ISO language code (e.g., en-US, it-IT)
+
+# ---------------------------------------------------------------------------
+# Paths
+# ---------------------------------------------------------------------------
+paths:
+  /status:
+    get:
+      operationId: getStatus
+      summary: Get service status
+      description: Returns the current status of the service and the health of its components.
+      tags:
+        - Status
+      security:
+        - ApiKeyAuth: []
+      parameters: []
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Service operational
+          schema:
+            $ref: "#/definitions/StatusResponse"
+          examples:
+            application/json:
+              success: true
+              status: 200
+              message: "Service operational"
+              metadata:
+                timestamp: "2024-05-09T12:00:00Z"
+                requestId: "a3f92c1d-8e74-4b2a-bc01-f3d9e5a71c88"
+                version: "2.0.1"
+              data:
+                status: "ok"
+                version: "2.0.0"
+                timestamp: "2024-05-09T12:00:00Z"
+              errors: null
+        429:
+          $ref: "#/responses/TooManyRequestsError"
+        500:
+          $ref: "#/responses/InternalServerError"
+        503:
+          $ref: "#/responses/ServiceUnavailableError"
+  /check:
+    post:
+      operationId: postCheck
+      summary: Check bilingual segment for translation issues
+      description: Analyze the provided text and return detected issues and suggestions.
+      tags:
+        - Check
+      security:
+        - ApiKeyAuth: []
+      parameters:
+        - in: body
+          name: body
+          description: Input data for check
+          required: true
+          schema:
+            type: object
+            required:
+              - source
+              - target
+              - sourceLanguage
+              - targetLanguage
+            properties:
+              source:
+                type: string
+                description: Source text to be checked
+                example: "This is an example sentence with a error."
+              target:
+                type: string
+                description: Target text to be checked
+                example: "Questo è un esempio di frase con un errore."
+              sourceLanguage:
+                allOf:
+                  - $ref: "#/definitions/Language"
+                description: Language of the source text
+                example: "en-US"
+              targetLanguage:
+                allOf:
+                  - $ref: "#/definitions/Language"
+                description: Language of the target text
+                example: "it-IT"
+              responseLanguage:
+                allOf:
+                  - $ref: "#/definitions/Language"
+                description: Language of the response
+                example: "en-US"
+                default: "en-US"
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      responses:
+        201:
+          description: Check completed successfully
+          schema:
+            $ref: "#/definitions/CheckResponse"
+        400:
+          description: Bad request (e.g., missing or invalid 'text' field)
+          schema:
+            $ref: "#/definitions/ErrorApiResponse"
+        401:
+          $ref: "#/responses/UnauthorizedError"
+        402:
+          $ref: "#/responses/WordsQuotaExceededError"
+        403:
+          $ref: "#/responses/ForbiddenError"
+        404:
+          $ref: "#/responses/NotFoundError"
+        405:
+          $ref: "#/responses/MethodNotAllowedError"
+        408:
+          $ref: "#/responses/RequestTimeoutError"
+        429:
+          $ref: "#/responses/TooManyRequestsError"
+        500:
+          $ref: "#/responses/InternalServerError"
+        503:
+          $ref: "#/responses/ServiceUnavailableError"
+  /wallet:
+    get:
+      operationId: getWallet
+      summary: Get wallet information
+      description: Returns the current status of the user's wallet, including balance and transaction history.
+      tags:
+        - Wallet
+      security:
+        - ApiKeyAuth: []
+      parameters: []
+      produces:
+        - application/json
+      responses:
+        200:
+          description: Wallet information retrieved successfully
+          schema:
+            $ref: "#/definitions/WalletResponse"
+        401:
+          $ref: "#/responses/UnauthorizedError"
+        403:
+          $ref: "#/responses/ForbiddenError"
+        404:
+          $ref: "#/responses/NotFoundError"
+        429:
+          $ref: "#/responses/TooManyRequestsError"
+        500:
+          $ref: "#/responses/InternalServerError"
+        503:
+          $ref: "#/responses/ServiceUnavailableError"
+
+# ---------------------------------------------------------------------------
+# Definitions, Responses, Security Definitions
+# ---------------------------------------------------------------------------
+
+responses:
+  UnauthorizedError:
+    description: Missing or invalid API key
+    schema:
+      $ref: "#/definitions/ErrorApiResponse"
+  WordsQuotaExceededError:
+    description: Words quota exceeded
+    schema:
+      $ref: "#/definitions/ErrorApiResponse"
+  ForbiddenError:
+    description: Insufficient permissions
+    schema:
+      $ref: "#/definitions/ErrorApiResponse"
+  NotFoundError:
+    description: Resource not found
+    schema:
+      $ref: "#/definitions/ErrorApiResponse"
+  MethodNotAllowedError:
+    description: HTTP method not allowed
+    schema:
+      $ref: "#/definitions/ErrorApiResponse"
+  RequestTimeoutError:
+    description: Request timed out
+    schema:
+      $ref: "#/definitions/ErrorApiResponse"
+  TooManyRequestsError:
+    description: Rate limit exceeded
+    schema:
+      $ref: "#/definitions/ErrorApiResponse"
+  InternalServerError:
+    description: Internal server error
+    schema:
+      $ref: "#/definitions/ErrorApiResponse"
+  ServiceUnavailableError:
+    description: Service unavailable
+    schema:
+      $ref: "#/definitions/ErrorApiResponse"
