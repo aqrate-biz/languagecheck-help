@@ -1,7 +1,7 @@
-site_name: Docs
-site_author:
-site_description:
-site_url: https://aqrate.biz
+site_name: LanguageCheck Help Center
+site_author: LanguageCheck
+site_description: Help center for LanguageCheck
+site_url: https://aqrate-biz.github.io/languagecheck-help/
 
 theme:
   name: material # tema Material Design
@@ -35,6 +35,7 @@ plugins:
 extra:
   version:
     provider: mike
+  generator: false
 
 extra_css:
   - assets/stylesheets/firebase-auth.css
