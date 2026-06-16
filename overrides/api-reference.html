@@ -1,0 +1,125 @@
+{#
+  Template custom per la pagina API Reference con Stoplight Elements.
+  Estende il layout base di Material for MkDocs, sostituendo il container
+  principale con il web component <elements-api>.
+
+  Come funziona:
+  - {% extends "main.html" %} → eredita tutto il layout (header, nav, footer)
+  - {% block styles %} → aggiunge CSS di Stoplight prima degli altri stili
+  - {% block container %} → sostituisce il contenuto centrale con Elements
+  - {% block scripts %} → aggiunge lo script di Stoplight dopo quelli di Material
+
+  Variabili Jinja2 disponibili (da mkdocs.yml tramite page.meta):
+  - page.meta.api_spec_url  → URL della spec OpenAPI (default: /specs/openapi.yaml)
+  - page.meta.api_layout    → "sidebar" | "stacked" | "responsive" (default: sidebar)
+  - page.meta.api_router    → "hash" | "memory" | "history" (default: hash)
+  - page.meta.api_hide_try_it → true/false (default: false)
+#}
+
+{% extends "main.html" %}
+
+{# ------------------------------------------------------------------ #}
+{# 1. STILI — Stoplight Elements CSS caricato PRIMA del tema Material  #}
+{# ------------------------------------------------------------------ #}
+{% block styles %}
+  {{ super() }}
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@stoplight/elements/styles.min.css"
+  />
+  <style>
+    /*
+      Override necessari per far convivere Stoplight Elements
+      con Material for MkDocs.
+    */
+
+    /* Rimuove il padding laterale del container Material
+       così Elements usa tutta la larghezza disponibile */
+    .md-main__inner {
+      margin: 0;
+      max-width: 100%;
+    }
+
+    .md-content {
+      max-width: 100%;
+      padding: 0;
+    }
+
+    /* Altezza: Elements deve occupare tutto lo spazio verticale
+       sotto l'header di MkDocs (64px di default) */
+    elements-api {
+      display: block;
+      height: calc(100vh - 48px);  /* 48px = altezza header Material */
+    }
+
+    /* Stoplight: forza dimensione corretta delle icone nel menu/toolbar.
+       Alcuni stili globali del tema possono gonfiare gli SVG. */
+    elements-api svg.sl-icon {
+      width: 1em !important;
+      height: 1em !important;
+      min-width: 1em;
+      min-height: 1em;
+      max-width: 1em;
+      max-height: 1em;
+      vertical-align: middle;
+    }
+
+    /* Nasconde il TOC laterale di Material (Elements ha il suo) */
+    .md-sidebar--secondary {
+      display: none;
+    }
+
+    /* custom.css */
+    .md-sidebar { display: none; }
+
+    /* In dark mode, Elements eredita le variabili CSS di Material */
+    [data-md-color-scheme="slate"] elements-api {
+      --color-canvas-100: #1e1e2e;
+      --color-canvas-200: #181825;
+      --color-canvas-300: #11111b;
+    }
+  </style>
+{% endblock %}
+
+{# ------------------------------------------------------------------ #}
+{# 2. CONTAINER — Sostituisce il contenuto Markdown con Elements        #}
+{# ------------------------------------------------------------------ #}
+{% block container %}
+  <div class="md-content" data-md-component="content">
+
+    {#
+      <elements-api> è il Web Component di Stoplight.
+      Attributi configurabili tramite front matter della pagina .md:
+
+        apiDescriptionUrl  → percorso o URL della spec OpenAPI/Swagger
+        router             → come gestire la navigazione interna
+                             "hash"    → usa #/... nell'URL (default, funziona
+                                         anche senza server – es. file://)
+                             "memory"  → nessuna modifica all'URL
+                             "history" → usa URL puliti (richiede server)
+        layout             → disposizione del pannello
+                             "sidebar"    → nav a sinistra, contenuto a destra
+                             "stacked"    → tutto in colonna verticale
+                             "responsive" → automatico in base alla viewport
+        hideTryIt          → nasconde il pannello "Try it" (es. per API interne)
+    #}
+    <elements-api
+      apiDescriptionUrl="{{ page.meta.get('api_spec_url', '/specs/openapi.yaml') }}"
+      router="{{ page.meta.get('api_router', 'hash') }}"
+      layout="{{ page.meta.get('api_layout', 'sidebar') }}"
+      {% if page.meta.get('api_hide_try_it', false) %}hideTryIt="true"{% endif %}
+    ></elements-api>
+
+  </div>
+{% endblock %}
+
+{# ------------------------------------------------------------------ #}
+{# 3. SCRIPT — Stoplight Elements JS caricato DOPO Material            #}
+{# ------------------------------------------------------------------ #}
+{% block scripts %}
+  {{ super() }}
+  <script
+    src="https://unpkg.com/@stoplight/elements/web-components.min.js"
+    defer
+  ></script>
+{% endblock %}
