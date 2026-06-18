@@ -39,6 +39,7 @@ extra:
 
 extra_css:
   - assets/stylesheets/firebase-auth.css
+  - assets/stylesheets/help-center.css
 
 extra_javascript:
   - assets/javascripts/nav-target-blank.js
@@ -50,6 +51,119 @@ extra_javascript:
 
 nav:
   - Home: index.md
+  - Guides:
+      - Overview: guides/index.md
+      - Getting Started with LanguageCheck: guides/getting-started.md
+      - Normal Account Guide: guides/normal-account.md
+      - Pro Account Guide: guides/pro-account.md
+      - Team Account Guide: guides/team-account.md
+      - Translator Workflow: guides/translator-workflow.md
+      - Project Manager Workflow: guides/project-manager-workflow.md
+  - Help Center:
+      - Overview: help-center/index.md
+      - Getting Started:
+          - Overview: help-center/getting-started/index.md
+          - Create an account: help-center/getting-started/create-an-account.md
+          - Sign in with email, password, or Google: help-center/getting-started/sign-in.md
+          - Choose where your uploaded data is stored: help-center/getting-started/data-location.md
+          - Complete your account setup: help-center/getting-started/complete-account-setup.md
+          - Reset or change your password: help-center/getting-started/password.md
+          - Understand data privacy and file retention: help-center/getting-started/data-privacy-file-retention.md
+      - Running a Quality Check:
+          - Overview: help-center/running-a-quality-check/index.md
+          - Start a new quality check: help-center/running-a-quality-check/start-new-quality-check.md
+          - Supported bilingual file formats: help-center/running-a-quality-check/supported-file-formats.md
+          - Upload multiple files correctly: help-center/running-a-quality-check/upload-multiple-files.md
+          - Name and review a check before sending it: help-center/running-a-quality-check/name-and-review-check.md
+          - Understand word counts, repetitions, and estimated time: help-center/running-a-quality-check/word-counts-repetitions-estimated-time.md
+          - What happens while a check is running: help-center/running-a-quality-check/while-check-is-running.md
+          - Fix language-pair mismatch or missing language data: help-center/running-a-quality-check/language-pair-mismatch.md
+          - Delete a check: help-center/running-a-quality-check/delete-check.md
+      - Understanding Results:
+          - Overview: help-center/understanding-results/index.md
+          - Open check details: help-center/understanding-results/open-check-details.md
+          - Understand check statuses: help-center/understanding-results/check-statuses.md
+          - Read the result summary chart: help-center/understanding-results/result-summary-chart.md
+          - Download the Excel report: help-center/understanding-results/download-excel-report.md
+          - Understand evaluation labels: help-center/understanding-results/evaluation-labels.md
+          - Understand issue explanations: help-center/understanding-results/issue-explanations.md
+          - Reload results if the report does not load: help-center/understanding-results/reload-results.md
+      - Pro Features:
+          - Overview: help-center/pro-features/index.md
+          - What Pro includes: help-center/pro-features/what-pro-includes.md
+          - Filter segments by Locked status: help-center/pro-features/filter-locked-status.md
+          - Filter segments by Percent range: help-center/pro-features/filter-percent-range.md
+          - Upload and validate a termbase: help-center/pro-features/upload-validate-termbase.md
+          - Check source and target inconsistencies: help-center/pro-features/check-inconsistencies.md
+          - Check target length: help-center/pro-features/check-target-length.md
+          - Choose the AI response language: help-center/pro-features/ai-response-language.md
+          - Manage propagation options: help-center/pro-features/propagation-options.md
+          - Manage your Pro subscription: help-center/pro-features/manage-pro-subscription.md
+      - Online Post-editing:
+          - Overview: help-center/online-post-editing/index.md
+          - Open the online post-editing workspace: help-center/online-post-editing/open-workspace.md
+          - Filter and navigate segments: help-center/online-post-editing/filter-navigate-segments.md
+          - Edit target text online: help-center/online-post-editing/edit-target-text.md
+          - Propagate repeated-segment changes: help-center/online-post-editing/propagate-changes.md
+          - View tags in post-editing: help-center/online-post-editing/view-tags.md
+          - Check inconsistencies from the post-editing workspace: help-center/online-post-editing/check-inconsistencies.md
+          - Export corrected XLIFF files: help-center/online-post-editing/export-corrected-xliff.md
+      - CAT Tool Integrations:
+          - Overview: help-center/cat-tool-integrations/index.md
+          - Work with XLIFF, SDLXLIFF, MQXLIFF, XLF, TXLF, and MXLIFF: help-center/cat-tool-integrations/supported-cat-files.md
+          - Download annotated XLIFF files: help-center/cat-tool-integrations/download-annotated-xliff.md
+          - Reimport corrected files into your CAT tool: help-center/cat-tool-integrations/reimport-corrected-files.md
+          - Send LanguageCheck results to Phrase: help-center/cat-tool-integrations/send-results-to-phrase.md
+          - Troubleshoot duplicate MRK IDs: help-center/cat-tool-integrations/duplicate-mrk-ids.md
+      - Terminology and Filters:
+          - Overview: help-center/terminology-and-filters/index.md
+          - Prepare a termbase Excel file: help-center/terminology-and-filters/prepare-termbase-excel.md
+          - Source terms, target terms, and synonyms: help-center/terminology-and-filters/source-target-synonyms.md
+          - Preview imported terms: help-center/terminology-and-filters/preview-imported-terms.md
+          - Combine termbase checks with segment filters: help-center/terminology-and-filters/combine-termbase-filters.md
+          - When termbase adds words to a check: help-center/terminology-and-filters/termbase-adds-words.md
+      - Plans and Billing:
+          - Overview: help-center/plans-and-billing/index.md
+          - Understand words and word wallets: help-center/plans-and-billing/words-and-wallets.md
+          - Buy more words: help-center/plans-and-billing/buy-more-words.md
+          - Use free welcome words and vouchers: help-center/plans-and-billing/free-words-vouchers.md
+          - Understand transactions: help-center/plans-and-billing/transactions.md
+          - Download invoices: help-center/plans-and-billing/download-invoices.md
+          - Add or update billing data: help-center/plans-and-billing/billing-data.md
+          - Billing requirements for businesses and private users: help-center/plans-and-billing/business-private-billing.md
+          - Why country/store cannot be changed without support: help-center/plans-and-billing/country-store-changes.md
+      - Account and Teams:
+          - Overview: help-center/account-and-teams/index.md
+          - Update your name and account settings: help-center/account-and-teams/account-settings.md
+          - Contact support to change marketing preferences or delete an account: help-center/account-and-teams/contact-support-account-changes.md
+          - Join a team invitation: help-center/account-and-teams/join-team-invitation.md
+          - Understand team roles and permissions: help-center/account-and-teams/team-roles-permissions.md
+          - Manage team members: help-center/account-and-teams/manage-team-members.md
+          - Buy words for a team wallet: help-center/account-and-teams/buy-team-words.md
+          - Use shared team words: help-center/account-and-teams/use-shared-team-words.md
+          - View team checks: help-center/account-and-teams/view-team-checks.md
+          - Invite external collaborators to a check: help-center/account-and-teams/invite-external-collaborators.md
+          - Remove collaborators from a check: help-center/account-and-teams/remove-collaborators.md
+      - Troubleshooting:
+          - Overview: help-center/troubleshooting/index.md
+          - File upload fails: help-center/troubleshooting/file-upload-fails.md
+          - Import error: help-center/troubleshooting/import-error.md
+          - No target words to check: help-center/troubleshooting/no-target-words.md
+          - Language pair mismatch: help-center/troubleshooting/language-pair-mismatch.md
+          - Not enough words to run a check: help-center/troubleshooting/not-enough-words.md
+          - You are not allowed to buy words: help-center/troubleshooting/not-allowed-to-buy-words.md
+          - AI temporarily unavailable: help-center/troubleshooting/ai-temporarily-unavailable.md
+          - Results did not load: help-center/troubleshooting/results-did-not-load.md
+          - Post-editing or export is unavailable: help-center/troubleshooting/post-editing-export-unavailable.md
+          - Contact support: help-center/troubleshooting/contact-support.md
+      - FAQ:
+          - Overview: help-center/faq/index.md
+          - General FAQ: help-center/faq/general.md
+          - Pricing and plans FAQ: help-center/faq/pricing-and-plans.md
+          - Technical support FAQ: help-center/faq/technical-support.md
+          - Features FAQ: help-center/faq/features.md
+          - Security and privacy FAQ: help-center/faq/security-and-privacy.md
+          - Team FAQ: help-center/faq/team.md
 
 markdown_extensions:
   - admonition # box note/warning/tip
@@ -58,5 +172,8 @@ markdown_extensions:
   - pymdownx.superfences # blocchi codice annidati
   - pymdownx.tabbed: # tab nei contenuti
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html

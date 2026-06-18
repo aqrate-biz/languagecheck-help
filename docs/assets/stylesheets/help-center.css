@@ -1,0 +1,54 @@
+.plan-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.25rem 0 1rem;
+}
+
+.plan-badge {
+  border-radius: 999px;
+  color: #fff;
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+  padding: 0.28rem 0.55rem;
+  text-transform: uppercase;
+}
+
+.plan-normal {
+  background: #4f6fd6;
+}
+
+.plan-pro {
+  background: #40c057;
+}
+
+.plan-team {
+  background: #800080;
+}
+
+.hc-grid {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 1.25rem 0;
+}
+
+.hc-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 0.9rem;
+}
+
+.hc-card a {
+  font-weight: 700;
+}
+
+.hc-icon {
+  color: var(--md-primary-fg-color);
+  display: inline-block;
+  margin-right: 0.35rem;
+  vertical-align: -0.15rem;
+}

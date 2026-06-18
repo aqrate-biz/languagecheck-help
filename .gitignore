@@ -1,4 +1,5 @@
 site
+.venv
 .vscode
 .env.local
 firebase-auth-overrides.js
