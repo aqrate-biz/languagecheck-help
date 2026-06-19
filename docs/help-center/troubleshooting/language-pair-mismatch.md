@@ -1,6 +1,6 @@
 # Language Pair Mismatch
 
-<div class="plan-badges"><span class="plan-badge plan-normal">Normal</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
+<div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
 This message appears when uploaded files do not share one source and target language pair, or when language metadata is missing.
 

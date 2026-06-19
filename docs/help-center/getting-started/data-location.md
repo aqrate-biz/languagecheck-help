@@ -1,6 +1,6 @@
 # Choose Where Your Uploaded Data Is Stored
 
-<div class="plan-badges"><span class="plan-badge plan-normal">Normal</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
+<div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
 LanguageCheck asks where uploaded data should be stored during account setup.
 

@@ -1,6 +1,6 @@
 # Getting Started with LanguageCheck
 
-<div class="plan-badges"><span class="plan-badge plan-normal">Normal</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
+<div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
 Use this guide to create your account, finish setup, and run a first quality check.
 

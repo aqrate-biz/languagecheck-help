@@ -1,6 +1,6 @@
 # Why Country or Store Cannot Be Changed Without Support
 
-<div class="plan-badges"><span class="plan-badge plan-normal">Normal</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
+<div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
 Country and store affect data location, currency, and invoicing.
 

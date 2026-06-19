@@ -1,6 +1,6 @@
 # Name and Review a Check Before Sending It
 
-<div class="plan-badges"><span class="plan-badge plan-normal">Normal</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
+<div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
 Use the check summary to confirm files, languages, word count, estimated time, and cost before sending the analysis.
 

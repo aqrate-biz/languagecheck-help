@@ -1,6 +1,6 @@
 # Complete Your Account Setup
 
-<div class="plan-badges"><span class="plan-badge plan-normal">Normal</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
+<div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
 Complete setup before running checks or using team features.
 
@@ -14,7 +14,7 @@ Complete setup before running checks or using team features.
 
 ## Notes and Limitations
 
-The app may show a welcome message with free words after setup. Marketing consent can later be changed by contacting support.
+Marketing consent can later be changed by contacting support.
 
 ## Related Articles
 

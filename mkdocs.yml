@@ -54,7 +54,7 @@ nav:
   - Guides:
       - Overview: guides/index.md
       - Getting Started with LanguageCheck: guides/getting-started.md
-      - Normal Account Guide: guides/normal-account.md
+      - Standard Account Guide: guides/normal-account.md
       - Pro Account Guide: guides/pro-account.md
       - Team Account Guide: guides/team-account.md
       - Translator Workflow: guides/translator-workflow.md

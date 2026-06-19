@@ -1,6 +1,6 @@
 # Features FAQ
 
-<div class="plan-badges"><span class="plan-badge plan-normal">Normal</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
+<div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
 ## Do I need to remove repetitions?
 
@@ -12,7 +12,7 @@ Yes, with Pro or Team access. Upload an `.xlsx` file without headers.
 
 ## Can I correct results online?
 
-Yes, with Pro or Team access. Normal users can view results online but cannot use the full post-editing workflow.
+Yes, with Pro or Team access. Standard users can view results online but cannot use the full post-editing workflow.
 
 ## Related Articles
 

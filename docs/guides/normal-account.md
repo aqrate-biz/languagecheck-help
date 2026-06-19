@@ -1,8 +1,8 @@
-# Normal Account Guide
+# Standard Account Guide
 
-<div class="plan-badges"><span class="plan-badge plan-normal">Normal</span></div>
+<div class="plan-badges"><span class="plan-badge plan-normal">Standard</span></div>
 
-Normal accounts cover the essential quality-check workflow: upload bilingual files, run AI analysis, read results, and download an Excel report.
+Standard accounts cover the essential quality-check workflow: upload bilingual files, run AI analysis, read results, and download an Excel report.
 
 ## Recommended Workflow
 
@@ -14,7 +14,7 @@ Normal accounts cover the essential quality-check workflow: upload bilingual fil
 6. [Download the Excel report](../help-center/understanding-results/download-excel-report.md).
 7. [View results online](../help-center/online-post-editing/open-workspace.md) in read-only mode.
 
-## Normal Account Limits
+## Standard Account Limits
 
 Advanced filters, termbase checks, online post-editing, corrected XLIFF export, and Pro subscription settings require Pro or Team access.
 

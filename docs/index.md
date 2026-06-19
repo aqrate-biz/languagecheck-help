@@ -7,7 +7,7 @@ Find guides, workflow articles, and troubleshooting notes for LanguageCheck user
 <div class="hc-card" markdown>
 <span class="hc-icon">:material-map-search:</span> [Guides](guides/index.md)
 
-Follow step-by-step paths for Normal, Pro, and Team accounts.
+Follow step-by-step paths for Standard, Pro, and Team accounts.
 </div>
 
 <div class="hc-card" markdown>
@@ -40,7 +40,7 @@ Fix upload, import, results, word wallet, and access issues.
 
 ## Account Plans
 
-<span class="plan-badge plan-normal">Normal</span>
+<span class="plan-badge plan-normal">Standard</span>
 Use core quality checks, download Excel reports, and view results online.
 
 <span class="plan-badge plan-pro">Pro</span>

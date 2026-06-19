@@ -13,7 +13,7 @@ Open online post-editing to review, filter, edit, and export checked segments in
 
 ## Notes and Limitations
 
-Normal users can view and filter results online, but editing and export are Pro or Team features.
+Standard users can view and filter results online, but editing and export are Pro or Team features.
 
 ## Related Articles
 

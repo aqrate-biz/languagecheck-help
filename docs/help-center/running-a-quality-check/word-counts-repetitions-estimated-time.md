@@ -1,6 +1,6 @@
 # Understand Word Counts, Repetitions, and Estimated Time
 
-<div class="plan-badges"><span class="plan-badge plan-normal">Normal</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
+<div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
 The check summary estimates how many words will be analyzed and how long processing should take.
 

@@ -11,7 +11,7 @@ Create your account, set your data location, and run your first check.
 </div>
 
 <div class="hc-card" markdown>
-<span class="hc-icon">:material-account-outline:</span> [Normal Account Guide](normal-account.md)
+<span class="hc-icon">:material-account-outline:</span> [Standard Account Guide](normal-account.md)
 
 Run checks, read results, and manage your words.
 </div>
