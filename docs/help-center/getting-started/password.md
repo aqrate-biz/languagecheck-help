@@ -8,7 +8,7 @@ Use reset password if you cannot sign in. Use settings if you are already signed
 
 1. From the sign-in page, open the reset password flow.
 2. Enter the email address for your account.
-3. Follow the reset link sent by Firebase Authentication.
+3. Follow the reset link sent by email.
 4. If you are signed in, open **Settings** and use **Change password** or **Set a password**.
 
 ## Notes and Limitations

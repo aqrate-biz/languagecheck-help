@@ -13,7 +13,7 @@ Follow step-by-step paths for Normal, Pro, and Team accounts.
 <div class="hc-card" markdown>
 <span class="hc-icon">:material-help-circle-outline:</span> [Help Center](help-center/index.md)
 
-Browse reusable articles about checks, results, billing, teams, and post-editing.
+Browse articles about checks, results, billing, teams, and post-editing.
 </div>
 
 <div class="hc-card" markdown>

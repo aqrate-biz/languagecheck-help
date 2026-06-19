@@ -8,7 +8,7 @@ Create a LanguageCheck account when you want to run checks, save your history, u
 
 1. Open LanguageCheck and select **Sign up**.
 2. Register with email and password, or continue with Google.
-3. If you use email and password, confirm your email when Firebase sends the verification message.
+3. If you use email and password, confirm your email when you receive the verification message.
 4. Continue with account setup when LanguageCheck asks for your data location and legal confirmations.
 
 ## Notes and Limitations

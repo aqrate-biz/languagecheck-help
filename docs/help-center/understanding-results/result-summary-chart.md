@@ -9,7 +9,7 @@ The result summary chart groups checked segments into practical evaluation categ
 1. **Flawless** means LanguageCheck did not find relevant quality problems.
 2. **Needs Improvement** means the segment should be reviewed.
 3. **Incorrect Meaning** means the translation may not preserve the source meaning.
-4. Review both segment counts and word counts when available.
+4. Use the chart to understand where most of the review work is concentrated.
 
 ## Notes and Limitations
 
@@ -19,4 +19,3 @@ AI results are designed to guide human review. Always make the final decision yo
 
 - [Understand evaluation labels](evaluation-labels.md)
 - [Download the Excel report](download-excel-report.md)
-

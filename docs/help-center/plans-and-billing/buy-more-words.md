@@ -14,7 +14,7 @@ Buy word bundles when your wallet does not have enough words for a check.
 
 ## Notes and Limitations
 
-In a team, only roles with **BuyWords** permission can buy words for the team wallet.
+In a team, only roles with permission to buy words can buy words for the team wallet.
 
 ## Related Articles
 

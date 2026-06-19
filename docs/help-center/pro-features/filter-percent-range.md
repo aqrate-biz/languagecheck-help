@@ -14,10 +14,9 @@ Use the Percent filter to analyze only segments within a similarity range.
 
 ## Notes and Limitations
 
-The default range is 0 to 101. Changing the range enables the Percent filter.
+The default range is 0 to 101. Changing the range enables the Percent filter. The range is inclusive: if you set Min Percent to 70, segments with Percent 70 are included; if you set Max Percent to 101, segments with Percent 101 are included.
 
 ## Related Articles
 
 - [Filter segments by Locked status](filter-locked-status.md)
 - [Start a new quality check](../running-a-quality-check/start-new-quality-check.md)
-

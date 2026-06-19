@@ -14,7 +14,7 @@ Use settings to update your displayed name, review authentication method, manage
 
 ## Notes and Limitations
 
-Uploaded data location is shown in settings but is not editable there.
+Uploaded data location is shown in settings but is not editable.
 
 ## Related Articles
 
