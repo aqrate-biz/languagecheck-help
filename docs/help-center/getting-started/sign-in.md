@@ -8,7 +8,7 @@ Use the sign-in page to access saved checks, word wallets, billing pages, and te
 
 1. Select **Sign in** from the main navigation.
 2. Enter your email and password, or use the Google button if you registered with Google.
-3. After sign-in, use **New check**, **Check history**, the word counter, and the user menu from the header.
+3. After signing in, access **New check**, **Check history**, the **Word wallet**, and the user menu from the header.
 
 ## Notes and Limitations
 

@@ -44,7 +44,7 @@ Fix upload, import, results, word wallet, and access issues.
 Use core quality checks, download Excel reports, and view results online.
 
 <span class="plan-badge plan-pro">Pro</span>
-Add advanced filters, terminology checks, online post-editing, corrected XLIFF export, and subscription features.
+Access advanced filters, terminology checks, online post-editing, corrected XLIFF export, and subscription features.
 
 <span class="plan-badge plan-team">Team</span>
-Use shared team words, roles, team check visibility, and collaborator workflows.
+Share a team word wallet, assign roles, invite external collaborators, and browse team check results.

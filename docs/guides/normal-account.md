@@ -2,7 +2,7 @@
 
 <div class="plan-badges"><span class="plan-badge plan-normal">Standard</span></div>
 
-Standard accounts cover the essential quality-check workflow: upload bilingual files, run AI analysis, read results, and download an Excel report.
+Standard accounts cover the essential quality-check workflow: upload bilingual files, run AI analysis, review results, and download an Excel report.
 
 ## Recommended Workflow
 

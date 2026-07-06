@@ -6,7 +6,7 @@ This message appears when your team role does not include permission to buy word
 
 ## Steps
 
-1. Check your role with the team owner.
+1. Confirm your role with the team owner.
 2. Ask an Owner or Business Manager to add words to the team wallet.
 3. Run the check after the wallet has enough words.
 

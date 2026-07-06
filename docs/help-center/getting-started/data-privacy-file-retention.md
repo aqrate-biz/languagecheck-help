@@ -14,7 +14,7 @@ LanguageCheck is designed for professional translation workflows where uploaded 
 
 ## Notes and Limitations
 
-Deleting a check removes access to its results and related downloads. Download any report or exported file you need before deleting.
+Deleting a check removes access to its results and related downloads. Download any report or XLIFF file you need before deleting the check.
 
 ## Related Articles
 

@@ -7,7 +7,7 @@ Issue explanations describe why LanguageCheck flagged a segment.
 ## Explanation Types
 
 - **Minor Errors Explanation**: small issues such as spelling, spacing, or missing words.
-- **Major Errors Explanation**: more serious meaning or quality problems.
+- **Major Errors Explanation**: serious meaning or quality issues.
 - **Non-Compliant With Termbase Explanation**: terminology issues when a termbase is used.
 - **Fluency Issues Explanation**: wording, flow, or readability concerns.
 - **Target Length Issue**: target length exceeds the configured rule.

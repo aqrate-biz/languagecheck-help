@@ -2,14 +2,14 @@
 
 <div class="plan-badges"><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-Open online post-editing to review, filter, edit, and export checked segments inside LanguageCheck.
+Open online post-editing to review, filter, and edit segments directly in LanguageCheck.
 
 ## Steps
 
 1. Open a completed check.
 2. In **Post-editing**, select **Start post-editing**.
-3. Use filters to focus the segment list.
-4. Edit target text if you have Pro or collaborator access.
+3. Use filters to focus on specific segments.
+4. Edit target text if you have Pro access or collaborator access to this check.
 
 ## Notes and Limitations
 

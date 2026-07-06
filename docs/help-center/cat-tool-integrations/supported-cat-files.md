@@ -8,7 +8,7 @@ LanguageCheck is designed for bilingual files exported from CAT tools.
 
 1. Export bilingual files from your CAT tool.
 2. Confirm the extension is supported: `.xliff`, `.sdlxliff`, `.mqxliff`, `.xlf`, `.txlf`, or `.mxliff`.
-3. Upload files from the same language pair.
+3. Upload files in the same language pair.
 4. Run the check.
 
 ## Notes and Limitations

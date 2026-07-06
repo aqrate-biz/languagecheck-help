@@ -7,9 +7,9 @@ Export corrected files after editing targets online.
 ## Steps
 
 1. Open the post-editing workspace.
-2. Review and save the target changes you need.
+2. Review, edit, and save the changes.
 3. Select **Export XLIFF** or **Export XLIFFs**.
-4. Download the corrected bilingual file or files.
+4. Download the corrected bilingual file(s).
 5. Reimport the files into your CAT tool.
 
 ## Notes and Limitations

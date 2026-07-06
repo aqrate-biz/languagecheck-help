@@ -2,7 +2,7 @@
 
 <div class="plan-badges"><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-Use the Phrase workflow when the completed check includes MXLIFF files.
+Use the Phrase workflow when the check includes MXLIFF files.
 
 ## Steps
 
@@ -13,7 +13,7 @@ Use the Phrase workflow when the completed check includes MXLIFF files.
 
 ## Notes and Limitations
 
-Phrase workflows may require account configuration or tokens before sending results.
+Phrase workflows may require configuring your account with tokens in Phrase before sending results.
 
 ## Related Articles
 

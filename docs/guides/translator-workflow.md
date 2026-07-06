@@ -2,8 +2,6 @@
 
 <div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-Use this guide when your starting point is a CAT tool project and your goal is to review only the segments that need attention.
-
 ## Workflow
 
 1. Export bilingual files from your CAT tool.

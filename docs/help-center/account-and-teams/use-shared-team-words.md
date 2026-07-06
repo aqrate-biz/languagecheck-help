@@ -6,7 +6,7 @@ Team checks consume words from the team wallet.
 
 ## Steps
 
-1. Join the team invitation.
+1. Accept the team invitation.
 2. Confirm the word counter shows the team wallet.
 3. Start a new check.
 4. Review the summary and send the check if the team wallet has enough words.

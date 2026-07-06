@@ -12,7 +12,7 @@ Pro includes filters, termbases, inconsistency checks, target length checks, res
 
 ## Can teams buy shared words?
 
-Yes. Team roles with permission can buy words for the shared team wallet.
+Yes. Team members with specific permissions can buy words for the shared team wallet.
 
 ## Related Articles
 

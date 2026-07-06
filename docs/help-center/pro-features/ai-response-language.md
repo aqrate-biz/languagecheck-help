@@ -2,7 +2,7 @@
 
 <div class="plan-badges"><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-Choose the response language when you want quality explanations in a specific language.
+Choose the response language to get quality explanations in a specific language.
 
 ## Steps
 

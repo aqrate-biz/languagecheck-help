@@ -2,7 +2,7 @@
 
 <div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-Invoices are available from the user menu after Stripe invoices exist for your customer account.
+Invoices become available in the user menu once you complete a paid purchase through Stripe.
 
 ## Steps
 

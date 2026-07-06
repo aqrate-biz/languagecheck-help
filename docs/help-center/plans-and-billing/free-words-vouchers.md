@@ -1,8 +1,8 @@
-# Use Free Welcome Words and Vouchers
+# Use Free Welcome Words and Activate Vouchers
 
 <div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span></div>
 
-LanguageCheck may add welcome words after account setup and can support vouchers.
+LanguageCheck may add welcome words after account setup. You can also redeem vouchers for extra words or Pro access.
 
 ## Steps
 

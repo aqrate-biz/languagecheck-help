@@ -2,7 +2,7 @@
 
 <div class="plan-badges"><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-After upload, LanguageCheck imports the termbase and shows a preview.
+After the upload, LanguageCheck imports the termbase and shows a preview.
 
 ## Steps
 

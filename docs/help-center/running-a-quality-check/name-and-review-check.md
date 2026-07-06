@@ -2,7 +2,7 @@
 
 <div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-Use the check summary to confirm files, languages, word count, estimated time, and cost before sending the analysis.
+Use the check summary to confirm files, languages, word count, estimated time, and cost before sending the check.
 
 ## Steps
 

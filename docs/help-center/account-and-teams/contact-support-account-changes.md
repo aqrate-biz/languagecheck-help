@@ -6,7 +6,7 @@ Some account changes require support assistance.
 
 ## What Requires Support
 
-- Changing your agreement to receive updates and promotional news.
+- Changing your consent to receive updates and promotional news.
 - Deleting your account.
 - Changing account store or country after setup.
 

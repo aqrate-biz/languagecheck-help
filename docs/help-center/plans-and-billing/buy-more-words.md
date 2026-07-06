@@ -10,7 +10,7 @@ Buy word bundles when your wallet does not have enough words for a check.
 2. Select **Buy more words**.
 3. Choose a bundle.
 4. Complete Stripe checkout.
-5. Return to LanguageCheck and confirm the wallet update.
+5. Return to LanguageCheck to see your updated wallet balance.
 
 ## Notes and Limitations
 

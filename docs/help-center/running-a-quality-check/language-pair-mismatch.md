@@ -2,7 +2,7 @@
 
 <div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-LanguageCheck can only run a multi-file check when uploaded files share one language pair and contain source and target language information.
+LanguageCheck can only run a multi-file check when all uploaded files share the same language pair and contain source and target language information.
 
 ## Steps
 
@@ -14,7 +14,7 @@ LanguageCheck can only run a multi-file check when uploaded files share one lang
 
 ## Notes and Limitations
 
-Do not confirm a check while the summary shows a language-pair mismatch.
+Do not confirm a check if the summary shows a language-pair mismatch.
 
 ## Related Articles
 

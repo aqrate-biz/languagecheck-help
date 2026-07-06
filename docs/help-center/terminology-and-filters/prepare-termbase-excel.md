@@ -10,11 +10,11 @@ Prepare a termbase when terminology consistency is part of the quality check.
 2. Do not include headers.
 3. Put the source term in column 1.
 4. Put the main target term in column 2.
-5. Put target synonyms in additional columns on the same row.
+5. If a term has multiple target synonyms, add each synonym in a separate column on the same row. If a term has multiple source synonyms, add each synonym in a separate row and repeat its target terms.
 
 ## Notes and Limitations
 
-The file can be up to 10 MB in the current upload form.
+The termbase file can be up to 10 MB.
 
 ## Related Articles
 

@@ -17,7 +17,7 @@ Pro unlocks advanced options for professional translation review and post-editin
 
 ## Notes and Limitations
 
-Collaborators invited to a Pro or Team check may receive access to Pro post-editing features for that check.
+Collaborators invited to a Pro or Team check receive access to Pro post-editing features for that specific check.
 
 ## Related Articles
 

@@ -6,8 +6,8 @@ Use segment filters to focus on the results that need review.
 
 ## Steps
 
-1. Open the results viewer or post-editing workspace.
-2. Set filters for evaluation or issue types.
+1. Open the online post-editing workspace.
+2. Set filters for evaluation and/or issue types.
 3. Review the filtered count compared with total segments.
 4. Use pagination to move through the filtered list.
 

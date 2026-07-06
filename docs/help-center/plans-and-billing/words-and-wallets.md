@@ -2,7 +2,7 @@
 
 <div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-Words are the credit unit used to run quality checks.
+Words are the credit units used to run quality checks.
 
 ## How It Works
 

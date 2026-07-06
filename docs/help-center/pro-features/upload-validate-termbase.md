@@ -1,4 +1,4 @@
-# Upload and Validate a Termbase
+# Upload a Termbase
 
 <div class="plan-badges"><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
@@ -15,7 +15,9 @@ Upload a termbase when you want LanguageCheck to flag terminology inconsistencie
 
 ## Notes and Limitations
 
-The file must not include headers. Column 1 is the source term. Column 2 is the target term. Additional columns can contain target synonyms.
+The file must not include headers. Column 1 is the source term. Column 2 is the target term. 
+If a term has multiple target synonyms, add each synonym in a separate column on the same row.
+If a term has multiple source synonyms, add each synonym in a separate row and repeat its target terms.
 
 ## Related Articles
 

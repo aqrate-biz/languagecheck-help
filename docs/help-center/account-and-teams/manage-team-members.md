@@ -10,12 +10,12 @@ Owners can manage team members from the team management page.
 2. Select **Manage your team**.
 3. Review members and pending invitations.
 4. Select **Add new member** to invite someone.
-5. Choose the member role.
+5. Choose a role for the member.
 6. Use edit or remove actions when available.
 
 ## Notes and Limitations
 
-Member management actions are visible only to users with the required permissions.
+Member management actions are visible only to the team Owner.
 
 ## Related Articles
 

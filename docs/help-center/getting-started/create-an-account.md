@@ -2,14 +2,14 @@
 
 <div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-Create a LanguageCheck account when you want to run checks, save your history, use words, or join a team.
+Create a LanguageCheck account to run quality checks, keep a history of your work, or join a team.
 
 ## Steps
 
 1. Open LanguageCheck and select **Sign up**.
-2. Register with email and password, or continue with Google.
+2. Register with Google or enter an email and password.
 3. If you use email and password, confirm your email when you receive the verification message.
-4. Continue with account setup when LanguageCheck asks for your data location and legal confirmations.
+4. Continue with the account setup when LanguageCheck asks for your data location and legal confirmations.
 
 ## Notes and Limitations
 

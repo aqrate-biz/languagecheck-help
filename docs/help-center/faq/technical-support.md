@@ -2,11 +2,11 @@
 
 <div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-## How long does analysis take?
+## How long does an analysis take?
 
 Most checks are processed quickly, but timing depends on file size, complexity, termbase usage, and system load.
 
-## What if upload fails?
+## What if the upload fails?
 
 Check the file format, connection, and CAT tool export. If the issue continues, contact support.
 

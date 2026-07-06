@@ -9,7 +9,7 @@ This message means the AI processing step could not complete at that moment.
 1. Wait a few minutes.
 2. Reopen the check detail page.
 3. If a retry or reload action is available, use it.
-4. Contact support if the check remains failed.
+4. Contact support if the check keeps failing.
 
 ## Related Articles
 

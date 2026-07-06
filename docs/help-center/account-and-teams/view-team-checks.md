@@ -2,17 +2,17 @@
 
 <div class="plan-badges"><span class="plan-badge plan-team">Team</span></div>
 
-Some team roles can view checks created by other team members.
+Some team members have the permission to view checks created by other members.
 
 ## Steps
 
 1. Select **Check history**.
-2. Use the available tabs or filters for personal and team checks.
+2. Use the available tabs to view your checks or other team members’ checks.
 3. Open a check to view details, owner, files, and results.
 
 ## Notes and Limitations
 
-Members without permission may see only their own checks.
+Members without permission can only see their own checks.
 
 ## Related Articles
 

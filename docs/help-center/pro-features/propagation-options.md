@@ -2,7 +2,7 @@
 
 <div class="plan-badges"><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-Propagation options control how target changes are applied to repeated or duplicate segments during online post-editing.
+Propagation options control how target changes are applied to repeated segments during online post-editing.
 
 ## Steps
 

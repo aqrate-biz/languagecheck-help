@@ -10,8 +10,8 @@ Duplicate MRK IDs can prevent LanguageCheck from regenerating XLIFF files for re
 
 ## What to Do
 
-1. Continue with the quality report if you only need analysis.
-2. If you need corrected XLIFF export, try exporting the bilingual file again from the CAT tool.
+1. Continue with the quality report if you only need an analysis.
+2. If you want to download the corrected XLIFF file, try exporting the bilingual file again from the CAT tool.
 3. If the warning continues, contact support.
 
 ## Related Articles

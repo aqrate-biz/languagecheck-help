@@ -2,7 +2,7 @@
 
 <div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-After you send a check, LanguageCheck imports the files, runs AI analysis, and prepares results.
+After you send a check, LanguageCheck imports the files, runs an AI analysis, and prepares results.
 
 ## Stages
 
@@ -14,7 +14,7 @@ After you send a check, LanguageCheck imports the files, runs AI analysis, and p
 
 ## Notes and Limitations
 
-You do not need to keep the page open after the check has started. LanguageCheck can notify you when results are ready.
+You do not need to keep the page open after the check has started. LanguageCheck will notify you when results are ready.
 
 ## Related Articles
 

@@ -8,7 +8,7 @@ A termbase row maps one source term to one or more acceptable target terms.
 
 - Column 1: source term.
 - Column 2: preferred target term.
-- Columns 3 and later: accepted target synonyms.
+- Columns 3 onward: accepted target synonyms.
 
 ## Notes and Limitations
 

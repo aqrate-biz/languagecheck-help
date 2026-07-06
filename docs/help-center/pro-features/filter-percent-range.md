@@ -2,15 +2,14 @@
 
 <div class="plan-badges"><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-Use the Percent filter to analyze only segments within a similarity range.
+Use the Percent filter to analyze only segments within a specific match percentage range.
 
 ## Steps
 
 1. Open **New check**.
 2. Expand **Apply filters to segments**.
-3. Set minimum and maximum Percent values.
-4. Use the slider or number inputs.
-5. Review the selected range in the check summary.
+3. Set minimum and maximum Percent values using the slider or number inputs.
+4. Review the selected range in the check summary.
 
 ## Notes and Limitations
 

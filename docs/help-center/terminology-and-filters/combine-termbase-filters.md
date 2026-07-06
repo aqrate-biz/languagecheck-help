@@ -6,7 +6,7 @@ Use filters and a termbase together when only part of a project needs terminolog
 
 ## Steps
 
-1. Upload segment files.
+1. Upload the bilingual file(s).
 2. Configure Locked or Percent filters.
 3. Upload and validate the termbase.
 4. Review all Pro options in the check summary.
@@ -14,7 +14,7 @@ Use filters and a termbase together when only part of a project needs terminolog
 
 ## Notes and Limitations
 
-Filters determine which segments are analyzed. Termbase content can add words to the check because terms are also processed.
+Filters determine which segments are analyzed. Termbase words are also added to the word count.
 
 ## Related Articles
 

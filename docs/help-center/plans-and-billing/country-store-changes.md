@@ -6,13 +6,12 @@ Country and store affect data location, currency, and invoicing.
 
 ## Why It Matters
 
-- Store controls where uploaded data is stored.
-- Store controls whether invoices use euro or dollars.
+- Store determines where your uploaded data is kept and whether invoices use euro or dollars.
 - Country affects tax ID validation and invoice requirements.
 
 ## What to Do
 
-Contact support if your country or store is wrong or must change.
+Contact support if you need to correct or change your country or store.
 
 ## Related Articles
 

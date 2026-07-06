@@ -14,7 +14,7 @@ Upload multiple files when they belong to the same project and should be analyze
 
 ## Notes and Limitations
 
-The upload field accepts up to 100 segment files. LanguageCheck detects identical segments automatically, so you do not need to remove repetitions before upload.
+The upload field accepts up to 100 files per check. LanguageCheck detects identical segments automatically, so you do not need to remove repetitions before upload.
 
 ## Related Articles
 

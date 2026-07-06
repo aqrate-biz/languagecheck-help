@@ -3,3 +3,4 @@ site
 .vscode
 .env.local
 firebase-auth-overrides.js
+.DS_Store

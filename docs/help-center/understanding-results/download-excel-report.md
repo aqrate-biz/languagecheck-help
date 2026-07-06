@@ -9,7 +9,7 @@ Download the Excel report when you want to review results outside LanguageCheck 
 1. Open the completed check detail page.
 2. In **Results view**, select **Download report**.
 3. Open the Excel file.
-4. Filter by evaluation or issue explanation to focus review.
+4. Filter by evaluation or issue explanation to focus on specific segments.
 
 ## Notes and Limitations
 

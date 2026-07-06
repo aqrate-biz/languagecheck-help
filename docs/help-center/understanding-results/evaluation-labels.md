@@ -6,9 +6,9 @@ Evaluation labels help you prioritize human review.
 
 ## Labels
 
-- **Flawless**: no relevant problem detected.
-- **Needs Improvement**: the translation is usable but may need correction.
-- **Incorrect Meaning**: the target may misrepresent the source and should be reviewed with priority.
+- **Flawless**: no issue detected and the translation is clear and accurate.
+- **Needs Improvement**: the translation is generally understandable but contains errors, such as linguistic mistakes, deviations from the termbase, or stylistic issues.
+- **Incorrect Meaning**: the translation is mostly wrong and the meaning may be inaccurate, different from the source, incomplete, or even reversed.
 
 ## Notes and Limitations
 

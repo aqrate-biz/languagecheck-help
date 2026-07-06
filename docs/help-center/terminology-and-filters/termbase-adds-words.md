@@ -1,8 +1,8 @@
-# When Termbase Adds Words to a Check
+# Termbase and word count
 
 <div class="plan-badges"><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-The check summary may show additional words when a termbase is applied.
+The check summary shows additional words when a termbase is applied.
 
 ## Why It Happens
 

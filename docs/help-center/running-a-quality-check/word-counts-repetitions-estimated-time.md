@@ -2,14 +2,14 @@
 
 <div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-The check summary estimates how many words will be analyzed and how long processing should take.
+The check summary gives you an overview of how many words will be analyzed and an estimate of how long processing should take.
 
 ## What to Check
 
-1. Review the total words and segments.
+1. Review the number of words and segments.
 2. Compare the needed words with your available word wallet.
-3. Review estimated time. Larger checks and checks with termbases may take longer.
-4. Remember that repetitions are detected automatically and identical segments are not charged as separate work.
+3. Review the estimated time. Larger checks and checks with termbases may take longer.
+4. Note that repetitions are detected automatically, so identical segments are not charged as separate work.
 
 ## Notes and Limitations
 

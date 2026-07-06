@@ -7,8 +7,8 @@ Remove a collaborator when they no longer need access to a check.
 ## Steps
 
 1. Open the check detail page.
-2. Go to the collaborator list.
-3. Select the remove action next to the collaborator email.
+2. Go to **Collaborate**.
+3. Select the remove action next to the collaborator's email.
 4. Confirm the update.
 
 ## Notes and Limitations

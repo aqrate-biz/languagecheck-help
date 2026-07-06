@@ -6,17 +6,15 @@ Statuses show where the check is in the processing workflow.
 
 ## Common Statuses
 
-- **Draft**: the check exists but has not been sent.
 - **Importing**: files are being imported.
 - **Imported**: import is complete.
-- **Running**: AI is checking translations.
-- **Postprocessing**: results are being prepared.
+- **Running**: AI is checking the translations.
 - **Completed**: results are ready.
 - **Failed**: the check could not finish.
 
 ## Notes and Limitations
 
-If a check fails or stays unavailable, use troubleshooting or contact support with the check name and approximate time.
+If a check fails or stays unavailable, use **Troubleshooting** or contact support with the check name and the approximate time you sent the check.
 
 ## Related Articles
 

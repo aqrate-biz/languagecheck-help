@@ -8,12 +8,12 @@ Annotated XLIFF files let you review LanguageCheck comments inside your CAT tool
 
 1. Open a completed check.
 2. In **Post-editing**, choose **Get annotated XLIFF**.
-3. Download the annotated file or files.
+3. Download the annotated file(s).
 4. Open them in your CAT tool and review the embedded AI comments.
 
 ## Notes and Limitations
 
-For MXLIFF workflows, use the Phrase integration instead of annotated XLIFF download.
+For MXLIFF workflows, the annotated XLIFF download is replaced by a direct send-to-Phrase option.
 
 ## Related Articles
 

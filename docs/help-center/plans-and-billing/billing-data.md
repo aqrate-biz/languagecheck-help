@@ -2,7 +2,7 @@
 
 <div class="plan-badges"><span class="plan-badge plan-normal">Standard</span><span class="plan-badge plan-pro">Pro</span><span class="plan-badge plan-team">Team</span></div>
 
-Billing data is required for invoicing and may be requested before payment.
+Billing data is required for invoicing. LanguageCheck may ask for it before you complete a payment.
 
 ## Steps
 
@@ -13,7 +13,7 @@ Billing data is required for invoicing and may be requested before payment.
 
 ## Notes and Limitations
 
-Country cannot be changed after setting it without support. Italian business and private users may need additional fiscal fields.
+Once set, the country cannot be changed without contacting support. Italian business and private users may need additional fiscal fields.
 
 ## Related Articles
 
