@@ -93,7 +93,7 @@ nav:
           - What Pro includes: help-center/pro-features/what-pro-includes.md
           - Filter segments by Locked status: help-center/pro-features/filter-locked-status.md
           - Filter segments by Percent range: help-center/pro-features/filter-percent-range.md
-          - Upload and validate a termbase: help-center/pro-features/upload-validate-termbase.md
+          - Upload a termbase: help-center/pro-features/upload-termbase.md
           - Check source and target inconsistencies: help-center/pro-features/check-inconsistencies.md
           - Check target length: help-center/pro-features/check-target-length.md
           - Choose the AI response language: help-center/pro-features/ai-response-language.md
@@ -121,12 +121,12 @@ nav:
           - Source terms, target terms, and synonyms: help-center/terminology-and-filters/source-target-synonyms.md
           - Preview imported terms: help-center/terminology-and-filters/preview-imported-terms.md
           - Combine termbase checks with segment filters: help-center/terminology-and-filters/combine-termbase-filters.md
-          - When termbase adds words to a check: help-center/terminology-and-filters/termbase-adds-words.md
+          - Termbase and word count: help-center/terminology-and-filters/termbase-word-count.md
       - Plans and Billing:
           - Overview: help-center/plans-and-billing/index.md
           - Understand words and word wallets: help-center/plans-and-billing/words-and-wallets.md
           - Buy more words: help-center/plans-and-billing/buy-more-words.md
-          - Use free welcome words and vouchers: help-center/plans-and-billing/free-words-vouchers.md
+          - Use Free Welcome Words and Activate Vouchers: help-center/plans-and-billing/free-words-vouchers.md
           - Understand transactions: help-center/plans-and-billing/transactions.md
           - Download invoices: help-center/plans-and-billing/download-invoices.md
           - Add or update billing data: help-center/plans-and-billing/billing-data.md
@@ -136,7 +136,7 @@ nav:
           - Overview: help-center/account-and-teams/index.md
           - Update your name and account settings: help-center/account-and-teams/account-settings.md
           - Contact support to change marketing preferences or delete an account: help-center/account-and-teams/contact-support-account-changes.md
-          - Join a team invitation: help-center/account-and-teams/join-team-invitation.md
+          - Accept a team invitation: help-center/account-and-teams/accept-team-invitation.md
           - Understand team roles and permissions: help-center/account-and-teams/team-roles-permissions.md
           - Manage team members: help-center/account-and-teams/manage-team-members.md
           - Buy words for a team wallet: help-center/account-and-teams/buy-team-words.md
