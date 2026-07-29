@@ -1,0 +1,6 @@
+# Optional PDF export dependencies (WeasyPrint needs system libs: pango, cairo, gdk-pixbuf).
+# macOS: brew install pango cairo gdk-pixbuf libffi
+# Ubuntu: sudo apt-get install -y libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
+-r requirements.txt
+weasyprint>=62,<63
+Pygments>=2.16

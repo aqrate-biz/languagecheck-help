@@ -32,6 +32,9 @@ theme:
 plugins:
   - search # ricerca integrata
 
+hooks:
+  - hooks/combine_export.py
+
 extra:
   version:
     provider: mike

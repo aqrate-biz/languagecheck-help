@@ -1,6 +1,9 @@
 site
+export
 .venv
 .vscode
 .env.local
 firebase-auth-overrides.js
 .DS_Store
+/hooks/__pycache__
+/scripts/__pycache__
