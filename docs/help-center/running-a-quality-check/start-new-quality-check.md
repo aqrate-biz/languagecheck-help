@@ -10,7 +10,7 @@ Start a new quality check when you have bilingual files ready for AI review.
 2. Select **New check** from the header.
 3. Upload your bilingual files.
 4. Set a check name.
-5. (Pro and Team users) Apply filters to segments, add a termbase file, enable advanced checks, or set the AI response language.
+5. (Pro and Team users) Apply filters to segments, add a termbase file or translation context, enable advanced checks, or set the AI response language.
 6. Select **Confirm settings and go to the next step**.
 7. Review the check summary and select **Let's go**.
 
@@ -22,5 +22,6 @@ You need enough words in your personal or team wallet to send the check. Team us
 
 - [Supported bilingual file formats](supported-file-formats.md)
 - [Name and review a check before sending it](name-and-review-check.md)
+- [Add translation context](../pro-features/add-translation-context.md)
 - [Not enough words to run a check](../troubleshooting/not-enough-words.md)
 

@@ -11,6 +11,7 @@ Pro accounts add advanced setup options, terminology support, online post-editin
    - [Filter segments by Locked status](../help-center/pro-features/filter-locked-status.md)
    - [Filter segments by Percent range](../help-center/pro-features/filter-percent-range.md)
    - [Upload and validate a termbase](../help-center/pro-features/upload-validate-termbase.md)
+   - [Add translation context](../help-center/pro-features/add-translation-context.md)
    - [Check source and target inconsistencies](../help-center/pro-features/check-inconsistencies.md)
    - [Choose the AI response language](../help-center/pro-features/ai-response-language.md)
 3. [Open the online post-editing workspace](../help-center/online-post-editing/open-workspace.md).
