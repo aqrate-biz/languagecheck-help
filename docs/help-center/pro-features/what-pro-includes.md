@@ -8,6 +8,7 @@ Pro unlocks advanced options for professional translation review and post-editin
 
 - Segment filters by Locked status and Percent range.
 - Termbase upload in `.xlsx` format.
+- Translation context for document subject areas.
 - Source and target inconsistency checks.
 - Target length checks.
 - AI response language selection.

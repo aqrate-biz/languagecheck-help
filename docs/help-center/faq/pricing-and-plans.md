@@ -8,7 +8,7 @@ LanguageCheck uses word-based pricing. You can buy word bundles and use words to
 
 ## What is included in Pro?
 
-Pro includes filters, termbases, inconsistency checks, target length checks, response language selection, online post-editing, and XLIFF export features.
+Pro includes filters, termbases, translation context, inconsistency checks, target length checks, response language selection, online post-editing, and XLIFF export features.
 
 ## Can teams buy shared words?
 
