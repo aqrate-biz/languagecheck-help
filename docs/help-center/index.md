@@ -25,7 +25,7 @@ Statuses, charts, Excel reports, evaluation labels, and result reloads.
 <div class="hc-card" markdown>
 <span class="hc-icon">:material-star-circle-outline:</span> [Pro Features](pro-features/index.md)
 
-Filters, termbases, inconsistencies, target length, response language, and subscriptions.
+Filters, termbases, inconsistencies, target length, short segments, response language, and subscriptions.
 </div>
 
 <div class="hc-card" markdown>

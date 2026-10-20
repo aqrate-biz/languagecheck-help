@@ -9,6 +9,7 @@
 - [Add translation context](add-translation-context.md)
 - [Check source and target inconsistencies](check-inconsistencies.md)
 - [Check target length](check-target-length.md)
+- [Check short segments](check-short-segments.md)
 - [Choose the AI response language](ai-response-language.md)
 - [Manage propagation options](propagation-options.md)
 - [Manage your Pro subscription](manage-pro-subscription.md)

@@ -8,7 +8,7 @@ Use the check summary to confirm files, languages, word count, estimated time, a
 
 1. Give the check a clear name. LanguageCheck may suggest the first uploaded file name.
 2. Review uploaded files, words, segments, and language pair.
-3. Review Pro options if you enabled filters, termbase, translation context, inconsistencies, target length, or response language.
+3. Review Pro options if you enabled filters, termbase, translation context, inconsistencies, target length, short segments, or response language.
 4. If something is wrong, go back or start a new check.
 5. Confirm the check when the summary is correct.
 
