@@ -11,6 +11,7 @@ Pro unlocks advanced options for professional translation review and post-editin
 - Translation context for document subject areas.
 - Source and target inconsistency checks.
 - Target length checks.
+- Short-segment checks.
 - AI response language selection.
 - Online post-editing.
 - Corrected XLIFF export.
